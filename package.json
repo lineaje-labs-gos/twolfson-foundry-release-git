@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "foundry-release-base": "~1.0.1",
-    "shell-quote": "~1.7.3",
+    "shell-quote": ">=1.10.0",
     "shelljs": "~0.8.5"
   },
   "devDependencies": {
@@ -61,5 +61,11 @@
       "foundry-release-git",
       "foundry-release-npm"
     ]
+  },
+  "overrides": {
+    "shell-quote": ">=1.10.0"
+  },
+  "resolutions": {
+    "shell-quote": ">=1.10.0"
   }
 }
