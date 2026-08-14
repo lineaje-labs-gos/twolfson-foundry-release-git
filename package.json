@@ -1,7 +1,7 @@
 {
   "name": "foundry-release-git",
   "description": "git release library for foundry",
-  "version": "2.1.1",
+  "version": "2.1.1-lineaje-01",
   "homepage": "https://github.com/twolfson/foundry-release-git",
   "author": {
     "name": "Todd Wolfson",
@@ -10,12 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/twolfson/foundry-release-git.git"
+    "url": "https://github.com/lineaje-labs-gos/twolfson-foundry-release-git"
   },
   "bugs": {
     "url": "https://github.com/twolfson/foundry-release-git/issues"
   },
   "license": "Unlicense",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "main": "lib/foundry-release-git",
   "engines": {
     "node": ">= 0.10.0"
